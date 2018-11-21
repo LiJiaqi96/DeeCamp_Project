@@ -1,0 +1,5 @@
+certifi==2018.1.18
+Django==2.0.1
+django-bootstrap-toolkit==2.15.0
+django-bootstrap3==9.1.0
+pytz==2017.3
