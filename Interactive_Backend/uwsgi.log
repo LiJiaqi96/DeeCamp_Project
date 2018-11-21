@@ -1,0 +1,2100 @@
+*** Starting uWSGI 2.0.12-debian (64bit) on [Thu Mar 15 02:05:55 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:02:04
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZrj9hy7gff0ksksfheg0xZ
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/jqy/creative/mysite
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/jqy/creative/mysite/
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/jqy/creative/mysite/mysite.sock fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/jqy/creative/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1a12460
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800448 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1a12460 pid: 18478 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 18478)
+spawned uWSGI worker 1 (pid: 18481, cores: 1)
+spawned uWSGI worker 2 (pid: 18482, cores: 1)
+spawned uWSGI worker 3 (pid: 18483, cores: 1)
+spawned uWSGI worker 4 (pid: 18484, cores: 1)
+spawned uWSGI worker 5 (pid: 18485, cores: 1)
+spawned uWSGI worker 6 (pid: 18486, cores: 1)
+spawned uWSGI worker 7 (pid: 18487, cores: 1)
+spawned uWSGI worker 8 (pid: 18488, cores: 1)
+spawned uWSGI worker 9 (pid: 18489, cores: 1)
+spawned uWSGI worker 10 (pid: 18490, cores: 1)
+[pid: 18484|app: 0|req: 1/1] 210.31.76.191 () {42 vars in 733 bytes} [Wed Mar 14 18:06:06 2018] GET /CreativeWriting/ => generated 5580 bytes in 41 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+...brutally killing workers...
+worker 1 buried after 21 seconds
+worker 3 buried after 21 seconds
+worker 4 buried after 21 seconds
+worker 6 buried after 21 seconds
+worker 7 buried after 21 seconds
+worker 8 buried after 21 seconds
+worker 10 buried after 21 seconds
+worker 2 buried after 22 seconds
+worker 5 buried after 22 seconds
+worker 9 buried after 22 seconds
+binary reloading uWSGI...
+chdir() to /home/jqy/creative/mysite
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+found fd 3 mapped to socket 0 (/home/jqy/creative/mysite/mysite.sock)
+running /usr/bin/uwsgi-core
+[uWSGI] getting INI configuration from mysite_uwsgi.ini
+*** Starting uWSGI 2.0.12-debian (64bit) on [Wed Mar 14 18:18:21 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:02:04
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZrj9hy7gff0ksksfheg0xZ
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/jqy/creative/mysite
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/jqy/creative/mysite/
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/jqy/creative/mysite/mysite.sock fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/jqy/creative/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x17a5210
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800448 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x17a5210 pid: 18478 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 18478)
+spawned uWSGI worker 1 (pid: 18630, cores: 1)
+spawned uWSGI worker 2 (pid: 18631, cores: 1)
+spawned uWSGI worker 3 (pid: 18632, cores: 1)
+spawned uWSGI worker 4 (pid: 18633, cores: 1)
+spawned uWSGI worker 5 (pid: 18634, cores: 1)
+spawned uWSGI worker 6 (pid: 18635, cores: 1)
+spawned uWSGI worker 7 (pid: 18636, cores: 1)
+spawned uWSGI worker 8 (pid: 18637, cores: 1)
+spawned uWSGI worker 9 (pid: 18638, cores: 1)
+spawned uWSGI worker 10 (pid: 18639, cores: 1)
+[pid: 18633|app: 0|req: 1/1] 210.31.76.191 () {42 vars in 734 bytes} [Wed Mar 14 18:18:31 2018] GET /CreativeWriting/ => generated 5580 bytes in 45 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+...brutally killing workers...
+worker 9 buried after 48 seconds
+worker 5 buried after 49 seconds
+worker 1 buried after 50 seconds
+worker 2 buried after 50 seconds
+worker 3 buried after 50 seconds
+worker 4 buried after 50 seconds
+worker 6 buried after 50 seconds
+worker 7 buried after 50 seconds
+worker 8 buried after 50 seconds
+worker 10 buried after 50 seconds
+binary reloading uWSGI...
+chdir() to /home/jqy/creative/mysite
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+found fd 3 mapped to socket 0 (/home/jqy/creative/mysite/mysite.sock)
+running /usr/bin/uwsgi-core
+[uWSGI] getting INI configuration from mysite_uwsgi.ini
+*** Starting uWSGI 2.0.12-debian (64bit) on [Wed Mar 14 18:23:40 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:02:04
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZrj9hy7gff0ksksfheg0xZ
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/jqy/creative/mysite
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/jqy/creative/mysite/
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/jqy/creative/mysite/mysite.sock fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/jqy/creative/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1166210
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800448 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1166210 pid: 18478 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 18478)
+spawned uWSGI worker 1 (pid: 18680, cores: 1)
+spawned uWSGI worker 2 (pid: 18681, cores: 1)
+spawned uWSGI worker 3 (pid: 18682, cores: 1)
+spawned uWSGI worker 4 (pid: 18683, cores: 1)
+spawned uWSGI worker 5 (pid: 18684, cores: 1)
+spawned uWSGI worker 6 (pid: 18685, cores: 1)
+spawned uWSGI worker 7 (pid: 18686, cores: 1)
+spawned uWSGI worker 8 (pid: 18687, cores: 1)
+spawned uWSGI worker 9 (pid: 18688, cores: 1)
+spawned uWSGI worker 10 (pid: 18689, cores: 1)
+Wed Mar 14 18:24:08 2018 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Mar 14 18:24:08 2018 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Mar 14 18:24:08 2018 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Mar 14 18:24:08 2018 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Mar 14 18:24:08 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Mar 14 18:24:08 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Mar 14 18:24:08 2018 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Mar 14 18:24:08 2018 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Mar 14 18:24:08 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Mar 14 18:24:08 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.12-debian (64bit) on [Thu Mar 15 02:25:43 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:02:04
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZrj9hy7gff0ksksfheg0xZ
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/jqy
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/jqy/creative/mysite/
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/jqy/creative/mysite/mysite.sock fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/jqy/creative/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1e493a0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800448 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1e493a0 pid: 18750 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 18750)
+spawned uWSGI worker 1 (pid: 18752, cores: 1)
+spawned uWSGI worker 2 (pid: 18753, cores: 1)
+spawned uWSGI worker 3 (pid: 18754, cores: 1)
+spawned uWSGI worker 4 (pid: 18755, cores: 1)
+spawned uWSGI worker 5 (pid: 18756, cores: 1)
+spawned uWSGI worker 6 (pid: 18757, cores: 1)
+spawned uWSGI worker 7 (pid: 18758, cores: 1)
+spawned uWSGI worker 8 (pid: 18759, cores: 1)
+spawned uWSGI worker 9 (pid: 18760, cores: 1)
+spawned uWSGI worker 10 (pid: 18761, cores: 1)
+[pid: 18755|app: 0|req: 1/1] 210.31.76.191 () {40 vars in 703 bytes} [Wed Mar 14 18:26:00 2018] GET /CreativeWriting/ => generated 5580 bytes in 39 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 18761|app: 0|req: 1/2] 210.31.76.191 () {38 vars in 658 bytes} [Wed Mar 14 18:26:00 2018] GET /favicon.ico => generated 3638 bytes in 23 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 18755|app: 0|req: 2/3] 218.197.152.166 () {40 vars in 717 bytes} [Thu Mar 15 08:50:46 2018] GET /CreativeWriting => generated 0 bytes in 11 msecs (HTTP/1.1 301) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 18761|app: 0|req: 2/4] 218.197.152.166 () {40 vars in 719 bytes} [Thu Mar 15 08:50:47 2018] GET /CreativeWriting/ => generated 5580 bytes in 315 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+HCHO
+[pid: 18752|app: 0|req: 1/5] 218.197.152.166 () {50 vars in 1015 bytes} [Thu Mar 15 08:50:57 2018] POST /loginc/ => generated 5614 bytes in 144 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 18761|app: 0|req: 3/6] 218.197.152.166 () {40 vars in 676 bytes} [Thu Mar 15 08:50:58 2018] GET /favicon.ico => generated 3638 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+HCHO
+[pid: 18752|app: 0|req: 2/7] 218.197.152.166 () {50 vars in 1006 bytes} [Thu Mar 15 08:51:12 2018] POST /loginc/ => generated 5614 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+123
+[pid: 18760|app: 0|req: 1/8] 218.197.152.166 () {50 vars in 1006 bytes} [Thu Mar 15 08:51:18 2018] POST /loginc/ => generated 7277 bytes in 47 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 18761|app: 0|req: 4/9] 218.197.152.166 () {48 vars in 849 bytes} [Thu Mar 15 08:51:36 2018] POST /ajax/ => generated 12015 bytes in 348 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+get text
+[pid: 18752|app: 0|req: 3/10] 218.197.152.166 () {48 vars in 849 bytes} [Thu Mar 15 08:51:39 2018] POST /ajax/ => generated 12016 bytes in 597 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+get text
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 18761|app: 0|req: 5/11] 218.197.152.166 () {48 vars in 849 bytes} [Thu Mar 15 08:51:39 2018] POST /ajax/ => generated 12017 bytes in 935 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 18760|app: 0|req: 2/12] 218.197.152.166 () {48 vars in 849 bytes} [Thu Mar 15 08:51:39 2018] POST /ajax/ => generated 12018 bytes in 1286 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 18752|app: 0|req: 4/13] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:39 2018] POST /ajax/ => generated 12021 bytes in 1198 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 18759|app: 0|req: 1/14] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:39 2018] POST /ajax/ => generated 12022 bytes in 1226 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 18761|app: 0|req: 6/15] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:40 2018] POST /ajax/ => generated 12023 bytes in 953 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    IDF=math.log(self.cout)-math.log(eallDict[tword])
+KeyError: 'ithere'
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    IDF=math.log(self.cout)-math.log(eallDict[tword])
+KeyError: 'ithere'
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    IDF=math.log(self.cout)-math.log(eallDict[tword])
+KeyError: 'ithere'
+[pid: 18752|app: 0|req: 5/16] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:42 2018] POST /ajax/ => generated 12068 bytes in 1123 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    IDF=math.log(self.cout)-math.log(eallDict[tword])
+KeyError: 'ithere'
+[pid: 18761|app: 0|req: 7/17] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:42 2018] POST /ajax/ => generated 12069 bytes in 1369 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 18760|app: 0|req: 3/18] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:42 2018] POST /ajax/ => generated 12070 bytes in 1380 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 18759|app: 0|req: 2/19] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:43 2018] POST /ajax/ => generated 12071 bytes in 1200 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    IDF=math.log(self.cout)-math.log(eallDict[tword])
+KeyError: 'ithere'
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    IDF=math.log(self.cout)-math.log(eallDict[tword])
+KeyError: 'ithere'
+[pid: 18761|app: 0|req: 8/20] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:46 2018] POST /ajax/ => generated 12072 bytes in 766 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 18752|app: 0|req: 6/21] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:47 2018] POST /ajax/ => generated 12073 bytes in 742 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    IDF=math.log(self.cout)-math.log(eallDict[tword])
+KeyError: 'ithere'
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    IDF=math.log(self.cout)-math.log(eallDict[tword])
+KeyError: 'reco'
+[pid: 18761|app: 0|req: 9/22] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:47 2018] POST /ajax/ => generated 12074 bytes in 665 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 18752|app: 0|req: 7/23] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:48 2018] POST /ajax/ => generated 12071 bytes in 662 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    IDF=math.log(self.cout)-math.log(eallDict[tword])
+KeyError: 'ithere'
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    IDF=math.log(self.cout)-math.log(eallDict[tword])
+KeyError: 'ithere'
+get text
+[pid: 18761|app: 0|req: 10/24] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:49 2018] POST /ajax/ => generated 12076 bytes in 763 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    IDF=math.log(self.cout)-math.log(eallDict[tword])
+KeyError: 'ithere'
+get text
+get text
+get text
+get text
+[pid: 18752|app: 0|req: 8/25] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:49 2018] POST /ajax/ => generated 12077 bytes in 1100 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    IDF=math.log(self.cout)-math.log(eallDict[tword])
+KeyError: 'ithere'
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    IDF=math.log(self.cout)-math.log(eallDict[tword])
+KeyError: 'reco'
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    IDF=math.log(self.cout)-math.log(eallDict[tword])
+KeyError: 'ithere'
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    IDF=math.log(self.cout)-math.log(eallDict[tword])
+KeyError: 'ithere'
+[pid: 18760|app: 0|req: 4/26] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:49 2018] POST /ajax/ => generated 12076 bytes in 1645 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    IDF=math.log(self.cout)-math.log(eallDict[tword])
+KeyError: 'ithere'
+[pid: 18759|app: 0|req: 3/27] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:50 2018] POST /ajax/ => generated 12074 bytes in 2318 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 18761|app: 0|req: 11/28] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:50 2018] POST /ajax/ => generated 12071 bytes in 2413 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 18755|app: 0|req: 3/29] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:50 2018] POST /ajax/ => generated 12072 bytes in 2453 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 18758|app: 0|req: 1/30] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:50 2018] POST /ajax/ => generated 12073 bytes in 2518 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    IDF=math.log(self.cout)-math.log(eallDict[tword])
+KeyError: 'ithere'
+get text
+get text
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    IDF=math.log(self.cout)-math.log(eallDict[tword])
+KeyError: 'ithere'
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    IDF=math.log(self.cout)-math.log(eallDict[tword])
+KeyError: 'ithere'
+[pid: 18752|app: 0|req: 9/31] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:51 2018] POST /ajax/ => generated 12071 bytes in 2198 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 18760|app: 0|req: 5/32] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:51 2018] POST /ajax/ => generated 12070 bytes in 2127 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+[pid: 18758|app: 0|req: 2/33] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:52 2018] POST /ajax/ => generated 12023 bytes in 1365 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 18761|app: 0|req: 12/34] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:52 2018] POST /ajax/ => generated 12069 bytes in 1781 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+[pid: 18759|app: 0|req: 4/35] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:52 2018] POST /ajax/ => generated 12068 bytes in 1770 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+get text
+get text
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 18752|app: 0|req: 10/36] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:54 2018] POST /ajax/ => generated 12022 bytes in 1248 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 18761|app: 0|req: 13/37] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:54 2018] POST /ajax/ => generated 12021 bytes in 1424 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+[pid: 18760|app: 0|req: 6/38] 218.197.152.166 () {48 vars in 849 bytes} [Thu Mar 15 08:51:54 2018] POST /ajax/ => generated 12018 bytes in 1555 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 18758|app: 0|req: 3/39] 218.197.152.166 () {48 vars in 849 bytes} [Thu Mar 15 08:51:54 2018] POST /ajax/ => generated 12016 bytes in 1575 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 18759|app: 0|req: 5/40] 218.197.152.166 () {48 vars in 849 bytes} [Thu Mar 15 08:51:54 2018] POST /ajax/ => generated 12017 bytes in 1586 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 18755|app: 0|req: 4/41] 218.197.152.166 () {48 vars in 849 bytes} [Thu Mar 15 08:51:54 2018] POST /ajax/ => generated 12015 bytes in 1589 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+get text
+get text
+get text
+get text
+[pid: 18761|app: 0|req: 14/42] 218.197.152.166 () {48 vars in 849 bytes} [Thu Mar 15 08:51:56 2018] POST /ajax/ => generated 12014 bytes in 1131 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 18752|app: 0|req: 11/43] 218.197.152.166 () {48 vars in 849 bytes} [Thu Mar 15 08:51:56 2018] POST /ajax/ => generated 12015 bytes in 1588 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 18760|app: 0|req: 7/44] 218.197.152.166 () {48 vars in 849 bytes} [Thu Mar 15 08:51:56 2018] POST /ajax/ => generated 12016 bytes in 1650 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 18758|app: 0|req: 4/45] 218.197.152.166 () {48 vars in 849 bytes} [Thu Mar 15 08:51:56 2018] POST /ajax/ => generated 12018 bytes in 1606 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+[pid: 18759|app: 0|req: 6/46] 218.197.152.166 () {48 vars in 849 bytes} [Thu Mar 15 08:51:56 2018] POST /ajax/ => generated 12017 bytes in 1672 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 18755|app: 0|req: 5/47] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:57 2018] POST /ajax/ => generated 12021 bytes in 1506 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+get text
+get text
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 18761|app: 0|req: 15/48] 218.197.152.166 () {48 vars in 849 bytes} [Thu Mar 15 08:51:57 2018] POST /ajax/ => generated 12018 bytes in 1385 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 18759|app: 0|req: 7/49] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:58 2018] POST /ajax/ => generated 101 bytes in 829 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 18758|app: 0|req: 5/50] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:58 2018] POST /ajax/ => generated 89 bytes in 822 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 18752|app: 0|req: 12/51] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:58 2018] POST /ajax/ => generated 12021 bytes in 1187 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 18760|app: 0|req: 8/52] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:58 2018] POST /ajax/ => generated 12022 bytes in 1069 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+get text
+get text
+get text
+[pid: 18752|app: 0|req: 13/54] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:59 2018] POST /ajax/ => generated 95 bytes in 718 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 18761|app: 0|req: 16/54] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:59 2018] POST /ajax/ => generated 89 bytes in 718 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 18759|app: 0|req: 8/55] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:52:00 2018] POST /ajax/ => generated 95 bytes in 707 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 18754|app: 0|req: 1/56] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:51:59 2018] POST /ajax/ => generated 89 bytes in 769 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    IDF=math.log(self.cout)-math.log(eallDict[tword])
+KeyError: 'ivano'
+[pid: 18761|app: 0|req: 17/57] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 08:52:15 2018] POST /ajax/ => generated 12125 bytes in 575 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    IDF=math.log(self.cout)-math.log(eallDict[tword])
+KeyError: 'reaching'
+[pid: 18752|app: 0|req: 14/58] 218.197.152.166 () {48 vars in 853 bytes} [Thu Mar 15 08:52:30 2018] POST /ajax/ => generated 12290 bytes in 458 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    IDF=math.log(self.cout)-math.log(eallDict[tword])
+KeyError: 'reaching'
+[pid: 18761|app: 0|req: 18/59] 218.197.152.166 () {48 vars in 853 bytes} [Thu Mar 15 08:52:36 2018] POST /ajax/ => generated 12291 bytes in 463 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    IDF=math.log(self.cout)-math.log(eallDict[tword])
+KeyError: 'reaching'
+[pid: 18752|app: 0|req: 15/60] 218.197.152.166 () {48 vars in 853 bytes} [Thu Mar 15 08:52:51 2018] POST /ajax/ => generated 12292 bytes in 427 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+123
+
+[pid: 18761|app: 0|req: 19/61] 218.197.152.166 () {48 vars in 857 bytes} [Thu Mar 15 09:37:38 2018] POST /xietong/ => generated 1 bytes in 168 msecs (HTTP/1.1 200) 3 headers in 99 bytes (1 switches on core 0)
+[pid: 18759|app: 0|req: 9/62] 218.197.152.166 () {50 vars in 1006 bytes} [Thu Mar 15 09:37:38 2018] POST /loginc/ => generated 7277 bytes in 403 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+get text
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+get text
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 18761|app: 0|req: 20/63] 218.197.152.166 () {48 vars in 849 bytes} [Thu Mar 15 09:37:43 2018] POST /ajax/ => generated 12015 bytes in 675 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 18752|app: 0|req: 16/64] 218.197.152.166 () {48 vars in 849 bytes} [Thu Mar 15 09:37:43 2018] POST /ajax/ => generated 12016 bytes in 1224 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+get text
+[pid: 18760|app: 0|req: 9/65] 218.197.152.166 () {48 vars in 849 bytes} [Thu Mar 15 09:37:43 2018] POST /ajax/ => generated 12017 bytes in 1346 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 18759|app: 0|req: 10/66] 218.197.152.166 () {48 vars in 849 bytes} [Thu Mar 15 09:37:43 2018] POST /ajax/ => generated 12018 bytes in 1249 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+get text
+[pid: 18761|app: 0|req: 21/67] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 09:37:43 2018] POST /ajax/ => generated 12021 bytes in 1209 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 18752|app: 0|req: 17/68] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 09:37:44 2018] POST /ajax/ => generated 106 bytes in 586 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+get text
+[pid: 18760|app: 0|req: 10/69] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 09:37:45 2018] POST /ajax/ => generated 93 bytes in 571 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 18759|app: 0|req: 11/70] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 09:37:45 2018] POST /ajax/ => generated 93 bytes in 512 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 18761|app: 0|req: 22/71] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 09:37:45 2018] POST /ajax/ => generated 93 bytes in 345 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 18752|app: 0|req: 18/72] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 09:37:45 2018] POST /ajax/ => generated 106 bytes in 225 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+get text
+[pid: 18761|app: 0|req: 23/73] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 09:37:46 2018] POST /ajax/ => generated 106 bytes in 195 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    TF=100*einputArticle[tword]/earticleWords
+KeyError: 'linen'
+[pid: 18752|app: 0|req: 19/74] 218.197.152.166 () {48 vars in 853 bytes} [Thu Mar 15 09:37:56 2018] POST /ajax/ => generated 12184 bytes in 459 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    TF=100*einputArticle[tword]/earticleWords
+KeyError: 'linen'
+[pid: 18761|app: 0|req: 24/75] 218.197.152.166 () {48 vars in 853 bytes} [Thu Mar 15 09:37:56 2018] POST /ajax/ => generated 12186 bytes in 445 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    TF=100*einputArticle[tword]/earticleWords
+KeyError: 'linen'
+[pid: 18752|app: 0|req: 20/76] 218.197.152.166 () {48 vars in 853 bytes} [Thu Mar 15 09:38:00 2018] POST /ajax/ => generated 12188 bytes in 444 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 18761|app: 0|req: 25/77] 218.197.152.166 () {48 vars in 849 bytes} [Thu Mar 15 09:38:08 2018] POST /ajax/ => generated 12016 bytes in 347 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+get text
+[pid: 18752|app: 0|req: 21/78] 218.197.152.166 () {48 vars in 849 bytes} [Thu Mar 15 09:38:09 2018] POST /ajax/ => generated 12017 bytes in 468 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 18761|app: 0|req: 26/79] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 09:38:09 2018] POST /ajax/ => generated 12020 bytes in 429 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+get text
+[pid: 18752|app: 0|req: 22/80] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 09:38:10 2018] POST /ajax/ => generated 12021 bytes in 364 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+get text
+[pid: 18761|app: 0|req: 27/81] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 09:38:11 2018] POST /ajax/ => generated 12022 bytes in 702 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 18752|app: 0|req: 23/82] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 09:38:11 2018] POST /ajax/ => generated 12023 bytes in 856 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 18760|app: 0|req: 11/83] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 09:38:11 2018] POST /ajax/ => generated 12024 bytes in 941 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 18759|app: 0|req: 12/84] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 09:38:11 2018] POST /ajax/ => generated 12025 bytes in 876 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 18761|app: 0|req: 28/85] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 09:38:12 2018] POST /ajax/ => generated 12026 bytes in 606 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 79, in ajax
+    ai.calculateTFIDF(articleWords,inputArticle,allDict)  # 输入文本的100个词及权重
+  File "./blog/WritingSystem.py", line 127, in calculateTFIDF
+    TF=100*einputArticle[tword]/earticleWords
+KeyError: 'to-day'
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+Thu Mar 15 09:56:33 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /CreativeWriting/ (ip 218.197.152.166) !!!
+Thu Mar 15 09:56:37 2018 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 296] during GET /CreativeWriting/ (218.197.152.166)
+OSError: write error
+Thu Mar 15 09:57:01 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /CreativeWriting/ (ip 218.197.152.166) !!!
+Thu Mar 15 09:57:04 2018 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 296] during GET /CreativeWriting/ (218.197.152.166)
+OSError: write error
+[pid: 18752|app: 0|req: 24/86] 218.197.152.166 () {40 vars in 719 bytes} [Thu Mar 15 09:42:18 2018] GET /CreativeWriting/ => generated 0 bytes in 901698 msecs (HTTP/1.1 200) 3 headers in 0 bytes (1 switches on core 0)
+[pid: 18760|app: 0|req: 12/87] 218.197.152.166 () {40 vars in 718 bytes} [Thu Mar 15 09:42:54 2018] GET /CreativeWriting/ => generated 0 bytes in 893697 msecs (HTTP/1.1 200) 3 headers in 0 bytes (1 switches on core 0)
+Thu Mar 15 10:20:21 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /ajax/ (ip 218.197.152.166) !!!
+*** Starting uWSGI 2.0.12-debian (64bit) on [Thu Mar 15 18:24:32 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:02:04
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZrj9hy7gff0ksksfheg0xZ
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/jqy
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/jqy/creative/mysite/
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/jqy/creative/mysite/mysite.sock fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/jqy/creative/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x20af3c0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800448 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x20af3c0 pid: 1117 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1117)
+spawned uWSGI worker 1 (pid: 1119, cores: 1)
+spawned uWSGI worker 2 (pid: 1120, cores: 1)
+spawned uWSGI worker 3 (pid: 1121, cores: 1)
+spawned uWSGI worker 4 (pid: 1122, cores: 1)
+spawned uWSGI worker 5 (pid: 1123, cores: 1)
+spawned uWSGI worker 6 (pid: 1124, cores: 1)
+spawned uWSGI worker 7 (pid: 1125, cores: 1)
+spawned uWSGI worker 8 (pid: 1126, cores: 1)
+spawned uWSGI worker 9 (pid: 1127, cores: 1)
+spawned uWSGI worker 10 (pid: 1128, cores: 1)
+*** Starting uWSGI 2.0.12-debian (64bit) on [Thu Mar 15 18:32:54 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:02:04
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZrj9hy7gff0ksksfheg0xZ
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/jqy
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/jqy/creative/mysite/
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/jqy/creative/mysite/mysite.sock fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/jqy/creative/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x14563a0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218304 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x14563a0 pid: 1482 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1482)
+spawned uWSGI worker 1 (pid: 1484, cores: 1)
+spawned uWSGI worker 2 (pid: 1485, cores: 1)
+Thu Mar 15 10:34:47 2018 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Mar 15 10:34:47 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Mar 15 10:34:47 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.12-debian (64bit) on [Thu Mar 15 18:35:15 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:02:04
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZrj9hy7gff0ksksfheg0xZ
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/jqy/creative
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/jqy/creative/mysite/
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/jqy/creative/mysite/mysite.sock fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/jqy/creative/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x260f3a0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218304 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x260f3a0 pid: 1517 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1517)
+spawned uWSGI worker 1 (pid: 1519, cores: 1)
+spawned uWSGI worker 2 (pid: 1520, cores: 1)
+Not Found: /favicon.ico
+[pid: 1519|app: 0|req: 1/1] 114.255.218.23 () {46 vars in 771 bytes} [Thu Mar 15 10:43:37 2018] GET /favicon.ico => generated 3638 bytes in 296 msecs (HTTP/1.1 404) 3 headers in 102 bytes (2 switches on core 0)
+[pid: 1520|app: 0|req: 1/2] 114.255.218.23 () {42 vars in 751 bytes} [Thu Mar 15 10:43:44 2018] GET /CreativeWriting/ => generated 5580 bytes in 338 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
+[pid: 1519|app: 0|req: 2/3] 218.197.152.166 () {42 vars in 750 bytes} [Thu Mar 15 10:43:45 2018] GET /CreativeWriting/ => generated 5580 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1520|app: 0|req: 2/4] 218.197.152.166 () {40 vars in 685 bytes} [Thu Mar 15 10:43:48 2018] GET /favicon.ico => generated 3638 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 102 bytes (2 switches on core 0)
+123
+[pid: 1519|app: 0|req: 3/5] 218.197.152.166 () {50 vars in 1015 bytes} [Thu Mar 15 10:43:57 2018] POST /loginc/ => generated 7277 bytes in 101 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
+get text
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 1520|app: 0|req: 3/6] 218.197.152.166 () {48 vars in 849 bytes} [Thu Mar 15 10:44:11 2018] POST /ajax/ => generated 12015 bytes in 565 msecs (HTTP/1.1 500) 4 headers in 145 bytes (2 switches on core 0)
+[pid: 1519|app: 0|req: 4/7] 218.197.152.166 () {48 vars in 849 bytes} [Thu Mar 15 10:44:12 2018] POST /ajax/ => generated 12016 bytes in 454 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 89, in Readablility
+    self.wl=self.wl/self.words*100
+ZeroDivisionError: division by zero
+[pid: 1520|app: 0|req: 4/8] 218.197.152.166 () {48 vars in 848 bytes} [Thu Mar 15 10:44:12 2018] POST /ajax/ => generated 12007 bytes in 279 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 5/9] 218.197.152.166 () {48 vars in 849 bytes} [Thu Mar 15 10:44:13 2018] POST /ajax/ => generated 80 bytes in 164 msecs (HTTP/1.1 200) 3 headers in 94 bytes (2 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 80, in ajax
+    recommend1 = ai.getArticle(conRE)  # 1为词频分析推荐
+  File "./blog/WritingSystem.py", line 149, in getArticle
+    sim1=cosVector(self.fictionKeyDict[karticle],self.reDict)
+  File "./blog/WritingSystem.py", line 167, in cosVector
+    similiarity=numerator/(math.sqrt(denominator1)*math.sqrt(denominator2))
+ZeroDivisionError: float division by zero
+get text
+[pid: 1520|app: 0|req: 5/10] 218.197.152.166 () {48 vars in 850 bytes} [Thu Mar 15 10:44:13 2018] POST /ajax/ => generated 12211 bytes in 374 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 1519|app: 0|req: 6/11] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 10:44:14 2018] POST /ajax/ => generated 81 bytes in 237 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 6/12] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 10:44:15 2018] POST /ajax/ => generated 81 bytes in 160 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 7/13] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 10:44:15 2018] POST /ajax/ => generated 81 bytes in 160 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 7/14] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 10:44:16 2018] POST /ajax/ => generated 81 bytes in 163 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 8/15] 218.197.152.166 () {48 vars in 850 bytes} [Thu Mar 15 10:44:16 2018] POST /ajax/ => generated 81 bytes in 161 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+get text
+[pid: 1520|app: 0|req: 8/16] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 10:44:16 2018] POST /ajax/ => generated 81 bytes in 220 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 1519|app: 0|req: 9/17] 218.197.152.166 () {48 vars in 851 bytes} [Thu Mar 15 10:44:17 2018] POST /ajax/ => generated 81 bytes in 210 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 9/18] 218.197.152.166 () {48 vars in 850 bytes} [Thu Mar 15 10:44:17 2018] POST /ajax/ => generated 81 bytes in 163 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 10/19] 218.197.152.166 () {48 vars in 850 bytes} [Thu Mar 15 10:44:18 2018] POST /ajax/ => generated 81 bytes in 160 msecs (HTTP/1.1 200) 3 headers in 94 bytes (2 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 10/20] 218.197.152.166 () {48 vars in 850 bytes} [Thu Mar 15 10:44:28 2018] POST /ajax/ => generated 104 bytes in 165 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 11/21] 218.197.152.166 () {48 vars in 852 bytes} [Thu Mar 15 10:44:41 2018] POST /ajax/ => generated 111 bytes in 163 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 11/22] 218.197.152.166 () {48 vars in 852 bytes} [Thu Mar 15 10:44:44 2018] POST /ajax/ => generated 111 bytes in 176 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 12/23] 218.197.152.166 () {48 vars in 852 bytes} [Thu Mar 15 10:45:04 2018] POST /ajax/ => generated 126 bytes in 166 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+[pid: 1520|app: 0|req: 12/24] 218.197.152.166 () {48 vars in 856 bytes} [Thu Mar 15 10:45:18 2018] POST /xietong/ => generated 1 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 99 bytes (2 switches on core 0)
+[pid: 1520|app: 0|req: 13/25] 61.129.8.179 () {40 vars in 688 bytes} [Thu Mar 15 10:45:39 2018] GET /CreativeWriting/ => generated 5580 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
+[pid: 1519|app: 0|req: 13/26] 218.197.152.231 () {38 vars in 845 bytes} [Thu Mar 15 10:46:02 2018] GET /CreativeWriting/ => generated 5580 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
+123
+[pid: 1520|app: 0|req: 14/27] 218.197.152.231 () {48 vars in 1141 bytes} [Thu Mar 15 10:46:13 2018] POST /loginc/ => generated 7277 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 1519|app: 0|req: 14/28] 218.197.152.231 () {48 vars in 986 bytes} [Thu Mar 15 10:46:23 2018] POST /ajax/ => generated 12152 bytes in 276 msecs (HTTP/1.1 500) 4 headers in 145 bytes (2 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 1520|app: 0|req: 15/29] 218.197.152.231 () {48 vars in 986 bytes} [Thu Mar 15 10:46:24 2018] POST /ajax/ => generated 12153 bytes in 279 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 89, in Readablility
+    self.wl=self.wl/self.words*100
+ZeroDivisionError: division by zero
+get text
+[pid: 1519|app: 0|req: 15/30] 218.197.152.231 () {48 vars in 986 bytes} [Thu Mar 15 10:46:24 2018] POST /ajax/ => generated 12145 bytes in 318 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 1520|app: 0|req: 16/31] 218.197.152.231 () {48 vars in 986 bytes} [Thu Mar 15 10:46:25 2018] POST /ajax/ => generated 80 bytes in 178 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 80, in ajax
+    recommend1 = ai.getArticle(conRE)  # 1为词频分析推荐
+  File "./blog/WritingSystem.py", line 149, in getArticle
+    sim1=cosVector(self.fictionKeyDict[karticle],self.reDict)
+  File "./blog/WritingSystem.py", line 167, in cosVector
+    similiarity=numerator/(math.sqrt(denominator1)*math.sqrt(denominator2))
+ZeroDivisionError: float division by zero
+get text
+[pid: 1519|app: 0|req: 16/32] 218.197.152.231 () {48 vars in 988 bytes} [Thu Mar 15 10:46:25 2018] POST /ajax/ => generated 12349 bytes in 327 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 1520|app: 0|req: 17/33] 218.197.152.231 () {48 vars in 988 bytes} [Thu Mar 15 10:46:25 2018] POST /ajax/ => generated 81 bytes in 199 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 1519|app: 0|req: 17/34] 101.226.33.206 () {36 vars in 656 bytes} [Thu Mar 15 10:46:38 2018] GET /CreativeWriting => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 122 bytes (2 switches on core 0)
+,The Head-Hunter
+[pid: 1519|app: 0|req: 18/35] 218.197.152.231 () {48 vars in 994 bytes} [Thu Mar 15 10:47:24 2018] POST /xietong/ => generated 2 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 99 bytes (2 switches on core 0)
+[pid: 1520|app: 0|req: 18/36] 101.226.65.107 () {38 vars in 638 bytes} [Thu Mar 15 10:48:45 2018] GET /CreativeWriting => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 122 bytes (2 switches on core 0)
+[pid: 1519|app: 0|req: 19/37] 101.226.65.107 () {40 vars in 696 bytes} [Thu Mar 15 10:48:46 2018] GET /CreativeWriting/ => generated 5580 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
+[pid: 1520|app: 0|req: 19/38] 59.175.26.191 () {38 vars in 846 bytes} [Thu Mar 15 12:29:53 2018] GET /CreativeWriting/ => generated 5580 bytes in 16 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1519|app: 0|req: 20/39] 218.197.153.125 () {40 vars in 719 bytes} [Thu Mar 15 12:30:04 2018] GET /CreativeWriting/ => generated 5580 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1519|app: 0|req: 21/40] 218.197.153.125 () {40 vars in 685 bytes} [Thu Mar 15 12:30:05 2018] GET /favicon.ico => generated 3638 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (2 switches on core 0)
+123
+[pid: 1520|app: 0|req: 20/41] 59.175.26.191 () {48 vars in 1142 bytes} [Thu Mar 15 12:30:09 2018] POST /loginc/ => generated 7277 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
+get text
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 1519|app: 0|req: 22/42] 59.175.26.191 () {48 vars in 987 bytes} [Thu Mar 15 12:30:20 2018] POST /ajax/ => generated 12153 bytes in 581 msecs (HTTP/1.1 500) 4 headers in 145 bytes (2 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 21/43] 59.175.26.191 () {48 vars in 987 bytes} [Thu Mar 15 12:30:20 2018] POST /ajax/ => generated 12154 bytes in 486 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+get text
+[pid: 1519|app: 0|req: 23/44] 59.175.26.191 () {48 vars in 987 bytes} [Thu Mar 15 12:30:21 2018] POST /ajax/ => generated 12155 bytes in 426 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 1520|app: 0|req: 22/45] 59.175.26.191 () {48 vars in 987 bytes} [Thu Mar 15 12:30:21 2018] POST /ajax/ => generated 12156 bytes in 418 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 1519|app: 0|req: 24/46] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:30:22 2018] POST /ajax/ => generated 12159 bytes in 288 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+get text
+[pid: 1520|app: 0|req: 23/47] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:30:23 2018] POST /ajax/ => generated 100 bytes in 180 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+[pid: 1519|app: 0|req: 25/48] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:30:23 2018] POST /ajax/ => generated 88 bytes in 176 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+get text
+[pid: 1520|app: 0|req: 24/49] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:30:24 2018] POST /ajax/ => generated 90 bytes in 240 msecs (HTTP/1.1 200) 3 headers in 94 bytes (2 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 26/50] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:30:24 2018] POST /ajax/ => generated 90 bytes in 336 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 1520|app: 0|req: 25/51] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:30:24 2018] POST /ajax/ => generated 90 bytes in 257 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+get text
+[pid: 1519|app: 0|req: 27/52] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:30:24 2018] POST /ajax/ => generated 90 bytes in 271 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 1520|app: 0|req: 26/53] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:30:24 2018] POST /ajax/ => generated 74 bytes in 263 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 28/54] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:30:25 2018] POST /ajax/ => generated 80 bytes in 161 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+get text
+[pid: 1520|app: 0|req: 27/55] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:30:30 2018] POST /ajax/ => generated 74 bytes in 331 msecs (HTTP/1.1 200) 3 headers in 94 bytes (2 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 29/56] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:30:30 2018] POST /ajax/ => generated 90 bytes in 332 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 28/57] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:30:30 2018] POST /ajax/ => generated 90 bytes in 367 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 30/58] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:30:30 2018] POST /ajax/ => generated 90 bytes in 363 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 29/59] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:30:30 2018] POST /ajax/ => generated 90 bytes in 329 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 31/60] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:30:30 2018] POST /ajax/ => generated 88 bytes in 330 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 1520|app: 0|req: 30/61] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:30:31 2018] POST /ajax/ => generated 100 bytes in 325 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 32/62] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:30:31 2018] POST /ajax/ => generated 12159 bytes in 605 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 1520|app: 0|req: 31/63] 59.175.26.191 () {48 vars in 987 bytes} [Thu Mar 15 12:30:31 2018] POST /ajax/ => generated 12156 bytes in 566 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 1519|app: 0|req: 33/64] 59.175.26.191 () {48 vars in 987 bytes} [Thu Mar 15 12:30:31 2018] POST /ajax/ => generated 12155 bytes in 563 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 1520|app: 0|req: 32/65] 59.175.26.191 () {48 vars in 987 bytes} [Thu Mar 15 12:30:32 2018] POST /ajax/ => generated 12154 bytes in 605 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 34/66] 59.175.26.191 () {48 vars in 987 bytes} [Thu Mar 15 12:30:32 2018] POST /ajax/ => generated 12153 bytes in 567 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 1520|app: 0|req: 33/67] 59.175.26.191 () {48 vars in 987 bytes} [Thu Mar 15 12:30:32 2018] POST /ajax/ => generated 12152 bytes in 402 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+
+[pid: 1519|app: 0|req: 35/68] 59.175.26.191 () {48 vars in 995 bytes} [Thu Mar 15 12:30:33 2018] POST /xietong/ => generated 1 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 99 bytes (1 switches on core 0)
+[pid: 1519|app: 0|req: 36/69] 59.175.26.191 () {38 vars in 846 bytes} [Thu Mar 15 12:32:22 2018] GET /CreativeWriting/ => generated 5580 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
+123
+[pid: 1520|app: 0|req: 34/70] 59.175.26.191 () {48 vars in 1142 bytes} [Thu Mar 15 12:33:22 2018] POST /loginc/ => generated 7277 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 1519|app: 0|req: 37/71] 59.175.26.191 () {48 vars in 987 bytes} [Thu Mar 15 12:33:41 2018] POST /ajax/ => generated 12154 bytes in 292 msecs (HTTP/1.1 500) 4 headers in 145 bytes (2 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 35/72] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:33:44 2018] POST /ajax/ => generated 68 bytes in 165 msecs (HTTP/1.1 200) 3 headers in 94 bytes (2 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 38/73] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:33:44 2018] POST /ajax/ => generated 68 bytes in 164 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+get text
+[pid: 1520|app: 0|req: 36/74] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:47 2018] POST /ajax/ => generated 68 bytes in 315 msecs (HTTP/1.1 200) 3 headers in 94 bytes (2 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 39/75] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:47 2018] POST /ajax/ => generated 68 bytes in 339 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 37/76] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:47 2018] POST /ajax/ => generated 68 bytes in 344 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 40/77] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:47 2018] POST /ajax/ => generated 68 bytes in 344 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 38/78] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:47 2018] POST /ajax/ => generated 68 bytes in 342 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 41/79] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:47 2018] POST /ajax/ => generated 68 bytes in 339 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 39/80] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:48 2018] POST /ajax/ => generated 68 bytes in 340 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 42/81] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:48 2018] POST /ajax/ => generated 68 bytes in 338 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 40/82] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:48 2018] POST /ajax/ => generated 68 bytes in 342 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 43/83] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:48 2018] POST /ajax/ => generated 68 bytes in 345 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 41/84] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:48 2018] POST /ajax/ => generated 68 bytes in 349 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 44/85] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:49 2018] POST /ajax/ => generated 68 bytes in 341 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 42/86] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:49 2018] POST /ajax/ => generated 68 bytes in 337 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 45/87] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:49 2018] POST /ajax/ => generated 68 bytes in 342 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 43/88] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:49 2018] POST /ajax/ => generated 68 bytes in 347 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 46/89] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:49 2018] POST /ajax/ => generated 68 bytes in 343 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 44/90] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:49 2018] POST /ajax/ => generated 79 bytes in 343 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 47/91] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:50 2018] POST /ajax/ => generated 79 bytes in 338 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 45/92] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:50 2018] POST /ajax/ => generated 79 bytes in 338 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 48/93] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:50 2018] POST /ajax/ => generated 79 bytes in 340 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 46/94] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:50 2018] POST /ajax/ => generated 79 bytes in 341 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 49/95] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:50 2018] POST /ajax/ => generated 79 bytes in 341 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 47/96] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:51 2018] POST /ajax/ => generated 79 bytes in 342 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 50/97] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:51 2018] POST /ajax/ => generated 79 bytes in 342 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 48/98] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:51 2018] POST /ajax/ => generated 100 bytes in 347 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 51/99] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:51 2018] POST /ajax/ => generated 100 bytes in 338 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 49/100] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:51 2018] POST /ajax/ => generated 100 bytes in 340 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 52/101] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:51 2018] POST /ajax/ => generated 100 bytes in 343 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 50/102] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:52 2018] POST /ajax/ => generated 85 bytes in 342 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 53/103] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:52 2018] POST /ajax/ => generated 85 bytes in 341 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 51/104] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:52 2018] POST /ajax/ => generated 84 bytes in 341 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 54/105] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:52 2018] POST /ajax/ => generated 76 bytes in 340 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 52/106] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:52 2018] POST /ajax/ => generated 76 bytes in 343 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 55/107] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:52 2018] POST /ajax/ => generated 76 bytes in 340 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 53/108] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:53 2018] POST /ajax/ => generated 76 bytes in 350 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 56/109] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:53 2018] POST /ajax/ => generated 76 bytes in 345 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 54/110] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:53 2018] POST /ajax/ => generated 84 bytes in 341 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 57/111] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:53 2018] POST /ajax/ => generated 84 bytes in 344 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 1520|app: 0|req: 55/112] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:53 2018] POST /ajax/ => generated 101 bytes in 348 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 58/113] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:53 2018] POST /ajax/ => generated 12158 bytes in 625 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 1520|app: 0|req: 56/114] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:54 2018] POST /ajax/ => generated 12157 bytes in 618 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 1519|app: 0|req: 59/115] 59.175.26.191 () {48 vars in 987 bytes} [Thu Mar 15 12:34:54 2018] POST /ajax/ => generated 12154 bytes in 590 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 1520|app: 0|req: 57/116] 59.175.26.191 () {48 vars in 987 bytes} [Thu Mar 15 12:34:54 2018] POST /ajax/ => generated 12153 bytes in 588 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 76, in ajax
+    conRE = result.Readablility()
+  File "./blog/WritingSystem.py", line 88, in Readablility
+    self.sl=self.words/(len(fictionList)-i)
+ZeroDivisionError: division by zero
+[pid: 1519|app: 0|req: 60/117] 59.175.26.191 () {48 vars in 987 bytes} [Thu Mar 15 12:34:55 2018] POST /ajax/ => generated 12152 bytes in 584 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+get text
+Internal Server Error: /ajax/
+Traceback (most recent call last):
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jqy/creative/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./blog/views.py", line 80, in ajax
+    recommend1 = ai.getArticle(conRE)  # 1为词频分析推荐
+  File "./blog/WritingSystem.py", line 149, in getArticle
+    sim1=cosVector(self.fictionKeyDict[karticle],self.reDict)
+  File "./blog/WritingSystem.py", line 167, in cosVector
+    similiarity=numerator/(math.sqrt(denominator1)*math.sqrt(denominator2))
+ZeroDivisionError: float division by zero
+[pid: 1519|app: 0|req: 61/118] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:55 2018] POST /ajax/ => generated 105 bytes in 345 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 58/119] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:55 2018] POST /ajax/ => generated 12358 bytes in 629 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 1519|app: 0|req: 62/120] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:55 2018] POST /ajax/ => generated 105 bytes in 174 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+get text
+get text
+[pid: 1520|app: 0|req: 59/121] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:56 2018] POST /ajax/ => generated 105 bytes in 233 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 63/122] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:56 2018] POST /ajax/ => generated 103 bytes in 343 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 1520|app: 0|req: 60/123] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:56 2018] POST /ajax/ => generated 103 bytes in 271 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+get text
+[pid: 1519|app: 0|req: 64/124] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:57 2018] POST /ajax/ => generated 103 bytes in 161 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+get text
+[pid: 1520|app: 0|req: 61/125] 59.175.26.191 () {48 vars in 989 bytes} [Thu Mar 15 12:34:57 2018] POST /ajax/ => generated 84 bytes in 161 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 1519|app: 0|req: 65/126] 183.57.53.197 () {38 vars in 659 bytes} [Thu Mar 15 15:09:31 2018] GET /CreativeWriting => generated 0 bytes in 10 msecs (HTTP/1.1 301) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 1519|app: 0|req: 66/127] 183.57.53.197 () {40 vars in 717 bytes} [Thu Mar 15 15:09:31 2018] GET /CreativeWriting/ => generated 5580 bytes in 104 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1519|app: 0|req: 67/128] 218.197.153.125 () {40 vars in 719 bytes} [Thu Mar 15 15:33:48 2018] GET /CreativeWriting/ => generated 5580 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1519|app: 0|req: 68/129] 218.197.153.125 () {40 vars in 684 bytes} [Thu Mar 15 15:33:49 2018] GET /favicon.ico => generated 3638 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
